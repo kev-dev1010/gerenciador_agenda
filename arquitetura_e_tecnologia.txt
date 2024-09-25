@@ -1,0 +1,30 @@
+2: Arquitetura e Tecnologias
+Arquitetura do Sistema:
+
+O sistema será dividido em duas partes principais:
+
+    Frontend: Dashboard para gerenciamento das funcionalidades.
+    Backend: API para lidar com dados e autenticação.
+
+Frontend:
+
+    React.js: Para construção da interface do usuário.
+    React Router: Para navegação entre as diferentes páginas do dashboard.
+    TailwindCSS ou Bootstrap: Para estilização rápida e responsiva.
+
+Backend:
+
+    Node.js com Express: Para construção da API RESTful.
+        Autenticação: JWT (JSON Web Tokens) para autenticação.
+        Rotas: CRUD (Create, Read, Update, Delete) para clientes, serviços, agendamentos e receitas.
+
+Banco de Dados:
+
+    PostgreSQL: Para armazenar informações sobre clientes, serviços, agendamentos e receitas.
+
+Ferramentas e Tecnologias:
+
+    Git e GitHub: Controle de versão e colaboração.
+    Docker: Para criar e rodar containers para o ambiente de desenvolvimento e produção.
+    CI/CD com GitHub Actions: Automatizar testes e deploy contínuos.
+    Vercel ou Heroku: Para o deploy do frontend e backend.

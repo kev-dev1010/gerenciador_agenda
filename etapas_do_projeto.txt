@@ -1,0 +1,44 @@
+: Etapas do Projeto
+Fase 1: Planejamento e Setup Inicial
+
+    Criar repositório no GitHub para controle de versão.
+    Definir as tabelas do banco de dados e as rotas da API no Notion.
+    Configurar o ambiente de desenvolvimento:
+        Instalar Node.js e PostgreSQL (ou configurar via Docker).
+        Inicializar o projeto Express.
+
+Fase 2: Backend (API)
+
+    Criar rotas para:
+        Clientes: Cadastro, listagem, edição, remoção.
+        Serviços: Cadastro, listagem, edição, remoção.
+        Agendamentos: Disponibilidade de horários, criação, cancelamento.
+    Conectar ao PostgreSQL e implementar as tabelas necessárias.
+    Implementar autenticação com JWT.
+
+Fase 3: Frontend (Dashboard)
+
+    Criar projeto com React.js e configurar o roteamento.
+    Criar páginas:
+        Login.
+        Agendamentos (calendário).
+        Clientes (listagem e detalhes).
+        Serviços.
+        Receitas (relatórios).
+    Integrar o frontend com a API do backend.
+
+Fase 4: CI/CD e Docker
+
+    Configurar Docker para o ambiente de desenvolvimento e produção.
+    Criar pipeline de CI/CD usando GitHub Actions para rodar testes e fazer deploy automático.
+
+Fase 5: Deploy
+
+    Deploy do backend (API) no Heroku ou Render.
+    Deploy do frontend no Vercel ou Netlify.
+
+Fase 6: Documentação e Portfólio
+
+    Documentar funcionalidades e processo no GitHub e Notion.
+    Criar README detalhado com instruções de instalação e uso.
+    Subir o projeto no GitHub e usá-lo como portfólio.

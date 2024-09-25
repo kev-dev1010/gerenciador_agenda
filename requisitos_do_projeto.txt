@@ -1,0 +1,30 @@
+1: Requisitos do Projeto
+Objetivo:
+
+Criar um dashboard genérico para gerenciamento de agendas de serviços, que possa ser customizado para diferentes tipos de negócios. A solução deve incluir funcionalidades para gerenciar clientes, agendamentos, receitas e serviços prestados.
+Funcionalidades principais:
+
+    Gerenciamento de Agenda:
+        Exibir dias e horários disponíveis.
+        Permitir o agendamento e cancelamento de horários por parte dos clientes.
+
+    Gerenciamento de Serviços:
+        Cadastro de serviços (nome, descrição, duração, preço).
+        Associação de serviços com horários e clientes.
+
+    Gerenciamento de Clientes:
+        Cadastro de clientes com informações básicas (nome, telefone, email).
+        Histórico de agendamentos e serviços prestados.
+
+    Gerenciamento Financeiro:
+        Relatório de receitas por período (diário, semanal, mensal).
+        Controle de pagamentos (status: pago, pendente, etc.).
+
+    Autenticação de Usuários:
+        Login para o prestador de serviços com autenticação via JWT.
+        Perfis com diferentes níveis de acesso (admin, funcionário).
+
+Funcionalidades futuras:
+
+    Notificações automáticas por email ou WhatsApp para lembrar dos agendamentos.
+    Interface para os clientes verificarem o histórico e status dos serviços.
