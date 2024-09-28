@@ -1,4 +1,4 @@
-2: Arquitetura e Tecnologias
+Arquitetura e Tecnologias
 Arquitetura do Sistema:
 
 O sistema será dividido em duas partes principais:
